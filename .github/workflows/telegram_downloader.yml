@@ -452,7 +452,7 @@ jobs:
           fi
           echo "🔢 تعداد فایل‌های جدید: $TOTAL_FILES"
 
-          MAX_BATCH_SIZE_MB=500   # حداکثر حجم هر دسته به مگابایت
+          MAX_BATCH_SIZE_MB=100   # حداکثر حجم هر دسته به مگابایت
           batch=()
           batch_size_mb=0
 
